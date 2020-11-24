@@ -72,3 +72,13 @@ Attributes and their influence on classification have been calculated in order t
 ## Classfication and Choosing Appropriate Classifier
 We have used SVM (with the linear kernel), Naive Bias Classifiers and Random Forest (decision tree) classifiers.
 ![alt text](/Images/Test%20result.png)
+
+## Conclusion
+Although it may appear counter-intuitive, we conclude naive bias classifiers may be the best classifier in this case. This is because the classifiers are showing extremely high accuracy and we must try to avoid overfitting.
+
+## References
+* [SVM](https://scikit-learn.org/stable/modules/svm.html)
+* [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+* [Naive Bayes](https://scikit-learn.org/stable/modules/naive_bayes.html)
+* [Matplotlib](https://matplotlib.org/)
+* [Feature Selection Techniques in Machine Learning with Python](https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e)
