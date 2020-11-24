@@ -47,3 +47,12 @@ Here we are using a simple holdout method where we are keeping 25% of the data f
 ![alt text](/Images/25%25%20of%20the%20dataset%20is%20test%20dataset.png)
 ![alt text](/Images/Checking%20the%20first%205%20values%20of%20Training%20set%20(for%20randomness).png)
 ![alt text](/Images/Checking%20the%20first%205%20values%20of%20test%20set.png)
+
+## Normalization of Training and Test Data
+We performed two types of scaling:
+1. Standard Scaling:
+![alt text](/Images/Normalization%20using%20Standard%20scaling.png)
+2. Min-Max Scaling:
+![alt text](/Images/Training%20Data%20Min-Max%20normalization%20(0-1).png)
+We have decided to use Min-Max Scaling over Standard Scaling. Since the values are much closer to each other in min-max and since we know that classifiers such as SVM depend on how good the scaling is performed, min-max dominates over standard scaling.
+
