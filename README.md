@@ -33,3 +33,7 @@ There are a total of 3 classes and a total of 178 instances:
 * Class 1 - 59 instances
 * Class 2 - 71 instances
 * Class 3 - 48 instances
+
+## Data Preprocessing
+We have calculated the measures of central tendencies and it can be summarized in the contingency table below:
+![alt text](/Images/Measures%20of%20central%20tendency%20of%20data.png)
