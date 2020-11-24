@@ -45,3 +45,5 @@ We can observe that the data is sorted based on class labels. So we infer that w
 Here we are using a simple holdout method where we are keeping 25% of the data for test and 75% for training. The data has been randomized before split as observed in the preliminary stage.
 ![alt text](/Images/75%25%20of%20the%20data%20is%20training%20dataset.png)
 ![alt text](/Images/25%25%20of%20the%20dataset%20is%20test%20dataset.png)
+![alt text](/Images/Checking%20the%20first%205%20values%20of%20Training%20set%20(for%20randomness).png)
+![alt text](/Images/Checking%20the%20first%205%20values%20of%20test%20set.png)
