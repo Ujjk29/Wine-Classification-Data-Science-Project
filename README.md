@@ -37,3 +37,11 @@ There are a total of 3 classes and a total of 178 instances:
 ## Data Preprocessing
 We have calculated the measures of central tendencies and it can be summarized in the contingency table below:
 ![alt text](/Images/Measures%20of%20central%20tendency%20of%20data.png)
+
+## Preliminary Analysis
+We can observe that the data is sorted based on class labels. So we infer that we must randomize it before splitting. By observing the data description, we can infer that the features are not closely related to each other. For e.g. Proline values dominate overall central tendency measures over attributes such as Ash content. Hence, we can infer that there is a need for normalizing the attribute values to be contained in a similar domain. We decided to normalize the data after splitting it into test and training set.
+
+## Training Data vs Test Data
+Here we are using a simple holdout method where we are keeping 25% of the data for test and 75% for training. The data has been randomized before split as observed in the preliminary stage.
+![alt text](/Images/75%25%20of%20the%20data%20is%20training%20dataset.png)
+![alt text](/Images/25%25%20of%20the%20dataset%20is%20test%20dataset.png)
