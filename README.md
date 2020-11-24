@@ -56,3 +56,19 @@ We performed two types of scaling:
 ![alt text](/Images/Training%20Data%20Min-Max%20normalization%20(0-1).png)
 We have decided to use Min-Max Scaling over Standard Scaling. Since the values are much closer to each other in min-max and since we know that classifiers such as SVM depend on how good the scaling is performed, min-max dominates over standard scaling.
 
+## Re-analysis of data after partitioning (Training and Test sets) and Normalizing
+1. Class Distribution
+![alt text](/Images/Class%20distribution%20in%20the%20original%20dataset.png)
+![alt text](/Images/Class%20distribution%20in%20training%20dataset.png)
+![alt text](/Images/Class%20distribution%20in%20testing%20dataset.png)
+We can see that test-class distribution is roughly equivalent in all three datasets. This means accuracy is a good way of measuring classifiers (due to the absence of bias).
+
+2. Class as a function of different attributes
+![alt text](/Images/Sharing%20attributes(x)%20per%20class(y).png)
+These are the sub-plots of various important attributes and the relation between attribute-values and label classes.
+![alt text](/Images/Plot.png)
+Attributes and their influence on classification have been calculated in order to drop those attributes which are least important like Nonflavanoid phenols, Ash.
+
+## Classfication and Choosing Appropriate Classifier
+We have used SVM (with the linear kernel), Naive Bias Classifiers and Random Forest (decision tree) classifiers.
+![alt text](/Images/Test%20result.png)
