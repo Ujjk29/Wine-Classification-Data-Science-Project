@@ -29,7 +29,7 @@ The attributes are:
 There are 13 attributes in total. All attributes are continuous data. Dataset was verified to contain no missing attribute values.
 ![alt text](/Images/No%20missing%20attribute%20value%20in%20the%20given%20dataset.png)
 
-There are a total of 3 classes and a total of 178 instances.:
-● Class 1 - 59 instances
-● Class 2 - 71 instances
-● Class 3 - 48 instances
+There are a total of 3 classes and a total of 178 instances:
+* Class 1 - 59 instances
+* Class 2 - 71 instances
+* Class 3 - 48 instances
